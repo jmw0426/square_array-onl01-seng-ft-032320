@@ -2,9 +2,9 @@ def square_array(array)
   
   square_arr = []
   
-  square_arr.each do |square|
+  array.each do |square|
     
-     array << square **2
+    square_arr << square **2
    
   end    
    
