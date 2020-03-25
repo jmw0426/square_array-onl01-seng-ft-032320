@@ -1,14 +1,14 @@
-def square_array(numbers)
+def square_array(array)
   
-  numbers = []
+  array = []
   
-  numbers.each do |square|
+  array.each do |square|
     
-     numbers << square *2
+     array << square *2
    
   end    
    
-  numbers
+  array
   
 end  
    
